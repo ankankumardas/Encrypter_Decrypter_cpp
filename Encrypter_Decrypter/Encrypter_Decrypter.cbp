@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Encrypter_Decrypter" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Encrypter_Decrypter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Decrypter.h" />
+		<Unit filename="include/Encrypter.h" />
+		<Unit filename="include/Header_File_For_Utility_Functions.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/Heap.h" />
+		<Unit filename="include/Node.h" />
+		<Unit filename="src/Decrypter Functions/Decrypt.cpp" />
+		<Unit filename="src/Decrypter Functions/Driver_Function.cpp" />
+		<Unit filename="src/Decrypter Functions/Open_Input_File.cpp" />
+		<Unit filename="src/Decrypter Functions/Open_Output_File.cpp" />
+		<Unit filename="src/Decrypter Functions/Scanning_Password.cpp" />
+		<Unit filename="src/Encrypter Functions/Counting_Character_Occurance.cpp" />
+		<Unit filename="src/Encrypter Functions/Driver_Function.cpp" />
+		<Unit filename="src/Encrypter Functions/Encrypt.cpp" />
+		<Unit filename="src/Encrypter Functions/Open_Input_File.cpp" />
+		<Unit filename="src/Encrypter Functions/Open_Output_File.cpp" />
+		<Unit filename="src/Encrypter Functions/Scanning_Password.cpp" />
+		<Unit filename="src/Heap Functions/Deletion.cpp" />
+		<Unit filename="src/Heap Functions/Insertion.cpp" />
+		<Unit filename="src/Main.cpp" />
+		<Unit filename="src/Node Functions/Build_Tree.cpp" />
+		<Unit filename="src/Node Functions/Constructors.cpp" />
+		<Unit filename="src/Node Functions/Decrypt_Helper.cpp" />
+		<Unit filename="src/Node Functions/Traverse.cpp" />
+		<Unit filename="src/Utility Functions/Utility Functions.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
